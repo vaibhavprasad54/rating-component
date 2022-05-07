@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+body{
+    font-family: "Overpass";
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #cf6f2987, #fc7614b3);
+}
+
+.card{
+    width: 375px;
+    height: 375px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.star{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding: 40px 40px 40px 40px;
+    align-items: center;
+}
+
+.starImg{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: hsl(220, 2%, 30%);
+}
+
+.container{
+    padding: 20px 40px;
+}
+
+.container > h2{
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+.container > p{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color: hsl(217, 12%, 63%);
+}
+
+.ratingContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rating-btn{
+    padding: 12px 16px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: hsl(220deg 7% 24%);
+    border: none;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rating-btn:hover{
+    color: #fff;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.rating-btn:focus{
+    color: #fff;
+    background-color: rgb(255, 143, 5);
+}
+
+.submit-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(255, 143, 5);
+    border-radius: 25px;
+    color: #FFF;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+}
+
+.submit-btn:hover{
+    color: rgb(255, 143, 5);
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+    /* Hidden Card */
+
+.recieptImage{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating p{
+    color: rgb(255, 143, 5);
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: hsl(220deg 7% 24%);
+}
+
+.container h2{
+    color: #FFF;
+    padding-top: 20px;
+}
+
+.message > p{
+    font-size: 15px;
+    padding-top: 10px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+}
